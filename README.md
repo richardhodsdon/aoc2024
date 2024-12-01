@@ -1,6 +1,6 @@
-# 🎄 AdventOfCode-typescript-template 🎄
+# 🎄 AdventOfCode 🎄
 
-This is a TypeScript boilerplate for Advent of Code.
+This my TypeScript 2024 Advent of Code attempt.
 
 built with ❤️ and:
 

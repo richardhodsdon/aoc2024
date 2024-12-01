@@ -26,7 +26,7 @@ console.log(`Solving Day #${args[0]}`);
   }
   const { first, second }: Puzzle = await import(`./days/${puzzleName}/Puzzle`);
 
-  if (args[1] == '-t') {
+  if (args[1] == 't') {
     console.log(first(test1));
     console.log(second(test2));
     return;
