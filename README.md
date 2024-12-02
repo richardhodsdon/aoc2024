@@ -38,6 +38,8 @@ This command will create a new directory in the `days` folder with the following
 
 - `Puzzle.ts`: the boilerplate module with the placeholder methods for solving both daily puzzles
 - `index.txt`: the input file where to add the puzzle input
+- `test-1.txt`: The example input in the puzzle for part 1
+- `test-2.txt`: The example input in the puzzle for part 2
 
 The structure of the boilerplate module is the following:
 
@@ -62,6 +64,8 @@ export { first, expectedFirstSolution, second, expectedSecondSolution };
 ## 🔧 Development
 
 When your solution is ready, or when you want to start developing incrementally (watch mode) run `npm run dev {day}` where {day} is the day you are working on, i.e. `npm run dev 1` will run the puzzle class for day 1.
+
+You can use the smaller test input by calling `npm run dev {day} t`. This will use the test-1.txt and test-2.txt files for the input to each part of the puzzle.
 
 ## 🧪 Testing
 
